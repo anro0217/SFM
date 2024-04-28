@@ -1,0 +1,25 @@
+.bodybg{
+    -fx-background-image: url("../pictures/backgrounds/HomePage.png");
+    -fx-background-size: cover;
+}
+.button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #ffffff;
+}
+.button:hover .text{
+    -fx-stroke: #ff0000;
+    -fx-stroke-width: 2;
+}
+.text-area .content {
+    -fx-background-color: transparent;
+    -fx-text-fill: #ffffff;
+}
+.text-area .scroll-pane {
+    -fx-background-color: transparent;
+}
+.text-area .scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+.text-area .scroll-pane .content {
+    -fx-background-color: transparent;
+}

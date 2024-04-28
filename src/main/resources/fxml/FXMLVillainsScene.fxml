@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<AnchorPane styleClass="bodybg" stylesheets="@../style/VillainsStyle.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.zdanielm.sfm_projekt.controller.FXMLVillainsSceneController">
+    <children>
+        <VBox>
+            <TextField fx:id="SearchBox" styleClass="transparent-text-field" text="ENTER A NAME OR KEYWORD..."/>
+            <ListView fx:id="SearchResults"/>
+        </VBox>
+        <VBox>
+            <TextField fx:id="VillainName" styleClass="transparent-text-field" text="VILLAIN'S NAME" />
+        </VBox>
+        <VBox>
+            <TextArea fx:id="VillainDescription" style="-fx-background-color: transparent; -fx-text-fill: #ffffff;" text="Description about the villain" />
+        </VBox>
+        <VBox>
+            <TextArea fx:id="WeaknessList" style="-fx-background-color: transparent; -fx-text-fill: #ffffff;" text="Weakness of the villain"/>
+        </VBox>
+        <Label fx:id="CurrentTime"/>
+        <VBox>
+            <ListView fx:id="CommittedCrimes"/>
+        </VBox>
+        <HBox> <!--DangerLevel-->
+            <ProgressBar fx:id="ProgressBar1" style="-fx-accent: #008000;" />
+            <ProgressBar fx:id="ProgressBar2" style="-fx-accent: #FFFF00;" />
+            <ProgressBar fx:id="ProgressBar3" style="-fx-accent: #FFA500;" />
+            <ProgressBar fx:id="ProgressBar4" style="-fx-accent: #FF5733;" />
+            <ProgressBar fx:id="ProgressBar5" style="-fx-accent: #FF0000;" />
+        </HBox>
+        <VBox fx:id="vBox">
+            <ImageView fx:id="FingerprintImage">
+                <image>
+                    <Image url="@../../resources/pictures/fingerprints/FPrint1.png" />
+                </image>
+            </ImageView>
+        </VBox>
+        <HBox>
+            <Button fx:id="BackButton" onAction="#buttonClicked" text="BACK" styleClass="button"/>
+        </HBox>
+        <!--<ImageView fx:id="VillainImage" fitWidth="100" fitHeight="100" preserveRatio="true">
+            <image>
+                <Image url="" />
+            </image>
+        </ImageView>-->
+    </children>
+</AnchorPane>

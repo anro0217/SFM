@@ -1,0 +1,4 @@
+.bodybg{
+    -fx-background-image: url("../pictures/backgrounds/ToolsPage.png");
+    -fx-background-size: cover;
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane styleClass="bodybg" stylesheets="@../style/HomeStyle.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.zdanielm.sfm_projekt.controller.FXMLHomeSceneController">
+   <children>
+      <HBox>
+         <Button fx:id="SearchButton" onAction="#searchButtonClicked" styleClass="button" text="SEARCH"/>
+         <HBox>
+            <Button fx:id="MonitoringButton" onAction="#monitoringButtonClicked" styleClass="button" text="MONITORING"/>
+            <Button fx:id="QuitButton" onAction="#quitButtonClicked" text="QUIT" styleClass="button"/>
+         </HBox>
+      </HBox>
+   </children>
+</AnchorPane>
