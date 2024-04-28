@@ -1,0 +1,15 @@
+.bodybg{
+    -fx-background-image: url("../pictures/backgrounds/LoginPage.png");
+    -fx-background-size: cover;
+}
+.transparent-background {
+    -fx-background-color: transparent;
+}
+.button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #ffffff;
+}
+.transparent-text-field, .transparent-password-field{
+    -fx-background-color: transparent;
+    -fx-text-fill: #ffffff;
+}
